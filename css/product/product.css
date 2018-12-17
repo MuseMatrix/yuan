@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+#content .prod-c{
+    width: 900px;
+    margin: 0 auto;
+    background-image: -webkit-linear-gradient( left,#FEFEFE,#f3f3f3,#FEFEFE);
+}
+.hot{
+    padding: 50px 0 0;
+}
+.hot h4{
+    float: right;
+    width: 200px;
+    text-align: end;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 25px;
+    color: #666;
+    border-bottom: 1px dashed #FFCC66;
+}
+.hot h4 span{
+    color: #FFCC66;
+}
+.prod-hot{
+    display: flex;
+    clear: right;
+    justify-content: space-between;
+}
+.prod-hot li{
+    text-align: center;
+}
+.prod-hot li img{
+    width: 240px;
+    height: 180px;
+}
+.prod-hot .prd-info .prod-name{
+    color:#333;
+    font-size: 15px;
+    line-height: 35px;
+}
+.prod-hot .prd-info p:last-child{
+    color: #666666;
+    font-size: 12px;
+}
+.prd-info p:last-child span{
+    color: #FF9966;
+}
+.prd-info p:last-child i{
+    color: #FF3B3B;
+}
+.prod-hot .go{
+    padding: 18px 0;
+}
+.prod-hot li .go button{
+    width: 113px;
+    border: none;
+    line-height: 25px;
+    background-color: #333333;
+    color: #FFCC66;
+    border-radius:3px;
+}
+.recomd{
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 10px;
+    clear: right;
+}
+.recomd h5 p{
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+}
+.recomd h5 p:first-child{
+    font-size: 15px;
+}
+.recomd h5 p:last-child{
+    font-size: 12.5px;
+    color: #666666;
+}
+.recomdlist{
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px 0px 50px;
+}
+.recomdlist .item{
+    display: inline-block;
+    padding:0 10px 10px 0;
+}
+.recomdlist .itmclear{
+    padding-right: 0;
+}
+.recomdlist .ite img{
+    display: block;
+    width: 290px;
+    height: 374px;
+}
+.recomdlist .item img{
+    display: block;
+    width: 290px;
+    height: 180px;
+}
+.recomdlist .center{
+    width: 290px;
+}
+.center .cent-txt,.center .cent-buy{
+    height:90px;
+}
+.center .cent-txt{
+    height:89px;
+    line-height: 1.5;
+    color: #CC0033;
+    font-weight: bold;
+    font-family: -webkit-pictograph;
+    border-bottom: 1px dashed  #CC0033;
+}
+.center .cent-buy p{
+    color: #CC0033;
+    font-size: 15px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.center .cent-buy .buy-btn{
+    text-align: end;
+    padding: 28px 0;
+}
+.center .cent-buy .buy-btn button{
+    width: 113px;
+    border: none;
+    line-height: 25px;
+    background-color: #333333;
+    color: #FFCC66;
+    border-radius: 3px;
+}
+.grad{
+    width: 600px;
+}
+.rebg{
+    background-image: -webkit-linear-gradient( top,#FEFEFE,#f3f3f3,#FEFEFE);
+}

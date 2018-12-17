@@ -1,0 +1,224 @@
+@charset "utf-8";
+
+/*内容区域*/
+.cattitle{
+	padding: 15px;
+	text-align: center;
+	color: #FF9900;
+	font-size: 12px;
+}
+.cattitle img{
+	width: 25px;
+	height: 25px;
+}
+.prod-center{
+	padding: 0 40px 20px;
+	text-align: center;
+	border-bottom: 1px dashed #ccc;
+}
+.prod-center .swiper-wrapper{
+	width: 1000px;
+	margin: 0 auto;
+}
+.prod-center .swiper-slide{
+	width: 500px !important;
+	text-align: center;
+}
+.prod-center .banner2 .ltn-bg{
+	display: block;
+	position: absolute;
+	top: 50%;
+	z-index: 11;
+	margin-top: -20px;
+	width: 40px;
+	height: 40px;
+	background-image: url('../../images/u464.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.prod-center .banner2 img{
+	width: 450px;
+	height: 250px;
+}
+.prod-center .banner2 .rtn-bg{
+	display: block;
+	position: absolute;
+	top: 50%;
+	z-index: 11;
+	margin-top: -20px;
+	width: 40px;
+	height: 40px;
+	background-image: url('../../images/u464.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	transform: rotateY(180deg);
+}
+.prod-center .banner2 a{
+	color: #000;
+}
+.prod-center .banner2 .dott{
+	margin: 0 auto;
+	margin-bottom: 5px;
+	width: 425px;
+	border: 0.5px dashed #ccc;
+}
+.prod-center .banner2 h3{
+	width: 425px;
+	margin: 0 auto;
+	padding: 0 0 5px;
+	font-size: 13px;
+	text-align: start;
+}
+.prod-center .banner2 p{
+	font-size: 10px;
+	width: 425px;
+	margin: 0 auto;
+	color: #999999;
+	text-align: start;
+}
+.prod-center .banner2 .rtn,.prod-center .banner2 .ltn{
+	width: 40px;
+	height: 40px;
+	background-image: none;
+}
+
+.prod-center .banner2 .ltn{
+	left: 20px;
+}
+.prod-center .banner2 .rtn{
+	right: 20px;
+}
+.partner{
+	border-bottom: 1px dashed #ccc;
+}
+.partner .partner-bgt{
+	background-image: -webkit-linear-gradient( top,#fff,#dcd9d9);
+}
+.partner .partner-center .partner-m{
+	width:540px;
+	margin: 0 auto;
+	padding-bottom: 38px;
+}
+.partner .partner-center .partner-m h3{
+	font-size: 14px;
+	padding: 18px 0 0;
+}
+.partner .partner-center .partner-m p{
+	width: 550px;
+	padding-top: 18px;
+	color: #666;
+	font-size: 12px;
+}
+.partner .info-img{
+	position: relative;
+	height: 375px;
+}
+.partner .info-img img{
+	display: block;
+	width: 100%;
+}
+.partner .info-img .img-title{
+	padding: 74px 400px;
+	position: absolute;
+	background-color: rgba(0,0,0,.5);
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+}
+.partner .info-img .img-title .year{
+	width: 160px;
+	border: 8px solid #FFCC66;
+	height: 80px;
+	margin: 0 auto;
+	line-height: 70px;
+	color: #FFCC66;
+	font-size: 40px;
+	font-style: italic;
+	border-bottom:none ;
+	text-align: center;
+}
+.partner .info-img .img-title span{
+	display: inline-block;
+	font-size: 25px;
+	color: #FFCC66;
+	padding: 10px 0;
+	white-space: nowrap;
+	text-align: center;
+}
+.partner .info-img .img-title .company{
+	width: 160px;
+	border: 8px solid #FFCC66;
+	height: 80px;
+	color: #FFCC66;
+	margin: 0 auto;
+	font-size: xx-small;
+	border-top:none ;
+	text-align: center;
+}
+.partner .partner-bgb{
+	background-image: -webkit-linear-gradient( top,#dcd9d9,#fff);
+}
+.partner .partner-bgb .partner-m h3{
+	padding-top: 36px;
+}
+.industry  .indlist{
+	width: 550px;
+	margin: 0 auto;
+}
+.industry  .indlist ul{
+	display: flex;
+	padding: 10px 0;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.industry  .indlist ul li{
+	position: relative;
+	width: 260px;
+	padding-bottom: 25px;
+	font-family: serif;
+	border-top: 1px solid #E4E4E4;
+}
+.industry  .indlist ul li:before{
+	position: absolute;
+	top: -5px;
+	display: inline-block;
+	content: "";
+	width: 40px;
+	height: 4px;
+	background-color: #E4E4E4;
+}
+.indlist ul li h5{
+	font-size: 10px;
+	font-style: normal;
+	font-weight:lighter;
+	color: #E4E4E4;
+	padding: 3px 0;
+}
+.indlist ul li h5 span{
+	color: #000;
+	font-weight: 600;
+	font-size: 13px;
+	font-family: -webkit-pictograph;
+}
+.indlist ul li h6{
+	padding: 5px 0;
+	font-size: 13px;
+}
+.indlist ul li p{
+	font-size: 12px;
+	padding: 3px 0;
+	color: #999;
+}
+.indlist ul li a{
+	font-size: 12px;
+	color: #999;
+	border: 1px dotted #999;
+	padding: 0 3px;
+	border-radius: 3px;
+}
+.industry  .indlist ul li img{
+	width: 260px;
+}

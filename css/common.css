@@ -1,0 +1,25 @@
+@charset "utf-8";
+body, p, ul, dl, dd, ol, h1, h2, h3, h4, h5, h6{ margin:0;}
+ul,ol{ padding-left:0;list-style:none;}
+em,i{ font-style:normal;}
+strong,b{ font-weight:normal;}
+a{ text-decoration:none;}
+.fl{float: left;}
+.fr{float:right;}
+.clearfix:after{display: block;content: "";clear: both;}
+body{background-color: #fff;font-family:"12px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif";}
+#wrap{width: 1200px;min-width: 1200px;margin: 0 auto;}
+#content .desc{width: 1000px;padding: 12px 100px;}
+.desc img{display: inline-block;width: 25px;height: 25px;vertical-align: middle;}
+.desc h3{display: inline-block;font-size: 15px;font-style: normal;font-weight: normal;vertical-align: middle;}
+.desc span{font-size: 12px;color: #747474;}
+.desc p{font-size: 12px;padding-left: 30px;color: #747474;}
+.desc .ling{width: 156px;text-align: center;}
+.abcompany{width: 1000px;padding: 0 100px;}
+.abcompany img{vertical-align: middle;}
+.abcompany span{display: inline-block;vertical-align: middle;}
+.abcompany .companyname{font-size: 15px;border-bottom: 1px solid #999;}
+.abcompany .comeng {font-size: 12px;color: #999;padding-left: 5px;font-family: -webkit-pictograph;}
+.abcompany p{color: #666;padding: 30px 0;font-size: 12px;}
+.abcompany p span{font-size: 15px;font-weight: bold;vertical-align: baseline;}
+.abcompany p span:first-child{text-indent: 2rem}

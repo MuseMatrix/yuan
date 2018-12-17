@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+.activebox{
+    width: 750px;
+    margin: 0 auto;
+    padding: 40px 0 50px;
+    border-bottom: 1px dashed #ccc;
+}
+#content .active-t{
+    width: 800px;
+    margin: 0 auto;
+    background-image: -webkit-linear-gradient( left,#FEFEFE,#f3f3f3,#FEFEFE);
+}
+.drinks-box .drink-txt,.drinks-box img{
+    display: inline-block;
+    vertical-align: top;
+}
+.drinks-box .drink-txt{
+    width: 445px;
+    padding: 0 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.drinks-box .drink-txt h3{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-family: -webkit-pictograph;
+}
+.drinks-box .drink-txt .line{
+    display: inline-block;
+    width: 230px;
+    border: none;
+    text-align: center;
+    margin: 15px 0 20px;
+    border-bottom: 1px dashed #ccc;
+}
+.drinks-box .drink-txt p,.drinks-box p{
+    text-align: start;
+    padding-bottom: 20px;
+    text-indent: 2rem;
+    font-size: 13px;
+    color: #666666;
+}
+.drinks-box p.end{
+    padding-top: 30px;
+}
+.drinks-box p.endinfo{
+    width: 350px;
+    color: #E4E4E4;
+    padding: 8px 0 0;
+    margin-right: 30px;
+    line-height: 25px;
+    text-align: center;
+    text-indent: inherit;
+    background-color: #666666;
+}
+.drinks-box .drink-txt p span{
+    font-size: 14px;
+}
+.skin .drinks-box .drink-txt .jyskin{
+    font-size: 16px;
+    padding-bottom: 5px;
+    text-indent: inherit;
+}
+.skin .skin-txt{
+    width: 350px;
+}
+.skin .drinks-box{
+    display: inline-block;
+}
+.skin .skinimg-box{
+    position: relative;
+    width: 305px;
+    padding: 150px 25px 0;
+    display: inline-block;
+    vertical-align: top;
+}
+.skin .skinimg-box img{
+    display: inline-block;
+}
+.skin .skinimg-box img:nth-child(2){
+    transform: rotatez(347deg) translateY(-44px) translateX(-23px);
+}
+.skin .skinimg-box img:nth-child(3){
+    transform: rotateZ(397deg) translateX(36px) translatey(-80px);
+}
